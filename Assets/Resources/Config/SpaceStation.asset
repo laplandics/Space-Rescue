@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205ff9ba5cb747ed88b2deafaa15a176, type: 3}
+  m_Name: SpaceStation
+  m_EditorClassIdentifier: Assembly-CSharp::SpaceStationConfig
+  unitLayer: Unit
+  frameRenderOrder: 1
+  baysRenderOrder: 2
+  connectorsRenderOrder: 3
+  baysTr:
+  - spotType: 5
+    position: {x: -0.5, y: 0.5, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - spotType: 6
+    position: {x: 0.5, y: -0.5, z: 0}
+    rotation: {x: 0, y: 0, z: 180}
+  - spotType: 7
+    position: {x: 0.5, y: 0.5, z: 0}
+    rotation: {x: 0, y: 180, z: 0}
+  - spotType: 8
+    position: {x: -0.5, y: -0.5, z: 0}
+    rotation: {x: 180, y: 0, z: 0}
+  connectorsTr:
+  - spotType: 1
+    position: {x: 0, y: 1, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - spotType: 2
+    position: {x: 0, y: -1, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - spotType: 3
+    position: {x: 1, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  - spotType: 4
+    position: {x: -1, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+  frameSettings:
+  - frameType: 0
+    hp: 0
+  - frameType: 1
+    hp: 0
+  - frameType: 2
+    hp: 0
+  - frameType: 3
+    hp: 0
+  - frameType: 4
+    hp: 0
+  - frameType: 5
+    hp: 0
+  - frameType: 6
+    hp: 0
+  - frameType: 7
+    hp: 0
+  - frameType: 8
+    hp: 0
+  - frameType: 9
+    hp: 0
+  - frameType: 10
+    hp: 0
+  baySettings:
+  - bayType: 0
+    hp: 0
+  - bayType: 1
+    hp: 0
+  connectorSettings:
+  - connectorType: 0
+  - connectorType: 1

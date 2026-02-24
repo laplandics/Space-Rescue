@@ -1,0 +1,1 @@
+﻿public abstract class SpaceStationBay : UnitComponent {}

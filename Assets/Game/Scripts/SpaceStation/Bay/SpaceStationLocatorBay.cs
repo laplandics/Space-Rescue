@@ -1,0 +1,4 @@
+﻿public class SpaceStationLocatorBay : SpaceStationBay
+{
+    
+}
